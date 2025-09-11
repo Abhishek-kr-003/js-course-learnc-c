@@ -38,3 +38,38 @@ console.log(str3);
 // console.log(null == 0);
 // console.log(null >= 0);
 
+//Datatypes sumary:
+//# Primitive datatypes:
+/* 7 Primitive types: String , Number, Boolean, Null, Undefined, Symbol
+                      BigInt*/
+
+//# Refrence type or Non Primitive
+// Arrays, Objects, functions
+
+//We do not use datatypes in js to declarwe a variable Ex: int i=1 this we do not use 
+//we can use i=10 in js directly
+
+//to declare a Symbol in js we can use
+   const id = Symbol('123')
+   const anotherid = Symbol('123')
+// both id and anotherid is a symbol but both are not equal
+ 
+//to check
+console.log(id === anotherid);
+//output is false
+
+// Array decleration
+const heros = ["Krish", "Ironman"]
+
+//Object data type decleration
+let myObj ={
+    name: "Abhishek",
+age: 21
+}
+// To declare a function in js we use function(){} we can also store function in a variable
+const myfunc = function(){
+    console.log("Hello World");
+    
+}
+// To see all the return types of all the datatypes go to https://262.ecma-international.org/5.1/#sec-11.4.3
+// asked in interview
