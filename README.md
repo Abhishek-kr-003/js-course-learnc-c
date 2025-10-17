@@ -1,2 +1,2 @@
 # js-course-learnc-c
-A code repo for javascript
+A code repo for javascript practice.
